@@ -1,6 +1,6 @@
 # W3Schools-SQL-DataBase
 Not associated with W3Schools.\
-Visit [website](https://www.w3schools.com) for tutorials on WebProgramming.\
+Visit their [website](https://www.w3schools.com) for tutorials on WebProgramming.\
 All the Tables in W3Schools Database which were used in SQL tutorials can be found on the right hand side if you run this [example](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all).\
 I couldn't find location/link on w3schools website to download the database, so I created it.
 # Special Mentions:
