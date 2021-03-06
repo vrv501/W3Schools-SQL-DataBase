@@ -3,7 +3,7 @@ Not associated with W3Schools.\
 Visit their [website](https://www.w3schools.com) for tutorials on WebProgramming.\
 All the Tables in W3Schools Database which were used in SQL tutorials can be found on the right hand side if you run this [example](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all).\
 I couldn't find location/link on w3schools website to download the database, so I created it.\
-Note: All the Field names, Table names were renamed with lower case letters for ease of use. 
+Note: All the Field names, Table names were renamed with lower case letters for ease of use.\
 You can view the schema of database [here](https://github.com/skyfall01/W3Schools-SQL-DataBase/blob/main/DataBaseCreation.sql)
 # How to use
 1. Download [w3schools.db](https://github.com/skyfall01/W3Schools-SQL-DataBase/blob/main/w3schools.db).
