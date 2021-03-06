@@ -4,6 +4,7 @@ CREATE TABLE categories (
   description varchar(255) DEFAULT NULL, 
   PRIMARY KEY(categoryid)
 );
+
 CREATE TABLE customers (
   customerid INTEGER NOT NULL,
   customername varchar(255) DEFAULT NULL,
@@ -14,6 +15,7 @@ CREATE TABLE customers (
   country varchar(255) DEFAULT NULL,     
   PRIMARY KEY(customerid)
 );
+
 CREATE TABLE employees (
   employeeid INTEGER NOT NULL,
   lastname varchar(255) DEFAULT NULL,    
@@ -23,12 +25,14 @@ CREATE TABLE employees (
   notes text,
   PRIMARY KEY(employeeid)
 );
+
 CREATE TABLE shippers (
   shipperid INTEGER NOT NULL,
   shippername varchar(255) DEFAULT NULL, 
   phone varchar(255) DEFAULT NULL,
   PRIMARY KEY(shipperid)
 );
+
 CREATE TABLE suppliers (
   supplierid INTEGER NOT NULL,
   suppliername varchar(255) DEFAULT NULL,
@@ -40,6 +44,7 @@ CREATE TABLE suppliers (
   phone varchar(255) DEFAULT NULL,
   PRIMARY KEY(supplierid)
 );
+
 CREATE TABLE orders (
   orderid INTEGER NOT NULL,
   customerid INTEGER DEFAULT NULL,
@@ -51,6 +56,7 @@ CREATE TABLE orders (
   FOREIGN KEY (employeeID) REFERENCES employees(Employeeid),
   FOREIGN KEY (shipperID) REFERENCES shippers(shipperid)
 );
+
 CREATE TABLE products (
   productid INTEGER NOT NULL,
   productname varchar(255) DEFAULT NULL,
@@ -62,6 +68,7 @@ CREATE TABLE products (
   FOREIGN KEY (categoryid) REFERENCES categories(categoryid),
   FOREIGN KEY (supplierid) REFERENCES suppliers(supplierid)
 );
+
 CREATE TABLE order_details (
   orderdetailid INTEGER NOT NULL,
   orderid INTEGER DEFAULT NULL,
