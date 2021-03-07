@@ -15,7 +15,7 @@ sqlite3 w3schools.db
 ```
 5. Now you can start using SQL Queries
 # Entity Relationship Diagram
-![Entity Relationship](https://github.com/skyfall01/W3Schools-SQL-DataBase/blob/main/Entity%20relationship.png)
+![Entity Relationship](Images/Entity relationship.png)
 # Special Mentions:
 [Checkers300](https://github.com/Checkers300/W3Schools_Database)\
 [AndrejPHP](https://github.com/AndrejPHP/w3schools-database)
