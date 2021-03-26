@@ -52,9 +52,9 @@ CREATE TABLE orders (
   orderdate date DEFAULT NULL,
   shipperid INTEGER DEFAULT NULL,
   PRIMARY KEY(orderid),
-  FOREIGN KEY (customerID) REFERENCES customers(Customerid),
-  FOREIGN KEY (employeeID) REFERENCES employees(Employeeid),
-  FOREIGN KEY (shipperID) REFERENCES shippers(shipperid)
+  FOREIGN KEY (customerid) REFERENCES customers(customerid),
+  FOREIGN KEY (employeeid) REFERENCES employees(employeeid),
+  FOREIGN KEY (shipperid) REFERENCES shippers(shipperid)
 );
 
 CREATE TABLE products (
